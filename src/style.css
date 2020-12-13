@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    font-family: sans-serif;
+    background: #f7f2c9;
+}
+
+h1 {
+    color:#5b5201;
+    text-align: center;
+}
+
+.formularioCifrar{
+    width: 95%;
+    max-width: 500px;
+    margin:auto;
+    background: #e6df9a;
+    border-radius: 6px;
+}
+
+.formDatos{
+    background: #d1af24;
+    color: #5b5201;
+    padding:20px;
+    text-align: center;
+    font-weight:100;
+    font-size:30px;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+    border-bottom: 3px solid #5b5201; 
+}
+
+.contenedorInputs{
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+input{
+    margin-bottom: 1%;
+    padding:3%;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid #5b5201;
+
+}
+.input48: {
+    width: 60px;
+}
+
+.input100{
+    width: 100%;
+}
+.btnEnviar{
+    background:#d6d19f;
+    color: white
+    padding:10px 40px;
+
+}
+
+p{
+    text-align: center;
+    font-size: sans-serif;
+}
+
+.cabeza{
+    background: #d1af24;
+    color: #5b5201;
+    padding:20px;
+    text-align: center;
+    font-weight:100;
+    font-size:15px;
+    border-radius:6px;
+    max-width: 500px;
+    margin:auto;
+
