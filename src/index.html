@@ -22,53 +22,51 @@
         <div class="formularioCifrar">
     <H3 class="formDatos">DATOS GENERALES</H3>
 <div class="contenedorInputs">
-            <input name="nombre" id="nombre" type="name" placeholder="NOMBRE" class="input100"/>
+          <input name="nombre" id="nombre" type="name" placeholder="NOMBRE" class="input100"/>
 
-                <input name="edad" id="edad" type="number" placeholder="EDAD" class="input48"/>
+          <input name="edad" id="edad" type="number" placeholder="EDAD" class="input48"/>
          
-
-            <input name="nacimiento" id="nacimiento" type="number" placeholder="CELULAR" class="input48"/>
+          <input name="nacimiento" id="nacimiento" type="text" placeholder="LUGAR DE NACIMIENTO" class="input48"/>
     
-
-        <input name="puesto" id="puesto" list="puesto_solicitado" placeholder="PUESTO" class="input48"/>
-        <datalist id="puesto_solicitado">
+          <input name="puesto" id="puesto" list="puesto_solicitado" placeholder="PUESTO" class="input48"/>
+          <datalist id="puesto_solicitado">
             <option value="COMMUNITY MANAGER">
             <option value="FRONT END">
             <option value="GERENTE DE PRODUCTO">
             <option value="ANALISTA DE NEGOCIOS">
             <option value="AUXILIAR ADMINISTRATIVO">      
-        </datalist>
+          </datalist>
     
-        <input name="sueldo" id="sueldo" type="number" placeholder="SUELDO" class="input48"/>
+          <input name="sueldo" id="sueldo" type="number" placeholder="SUELDO" class="input48"/>
    
-            <input name="direccion" id="direccion" type="text" placeholder="DIRECCION" class="input100"/>
+          <input name="direccion" id="direccion" type="text" placeholder="DIRECCION" class="input100"/>
      
-            <input name="email" id="email" type="email" placeholder="E-MAIL" class="input48"/>
+          <input name="email" id="email" type="email" placeholder="E-MAIL" class="input48"/>
      
-            <input name="celular" id="celular" type="tel" placeholder="NUMERO CELULAR" class="input48"/>
+          <input name="celular" id="celular" type="tel" placeholder="NUMERO CELULAR" class="input48"/>
      
-        <input name="escolaridad" id="escolaridad" list="escolaridad1" placeholder="PUESTO" class="input48"/>
-        <datalist id="escolaridad1">
+          <input name="escolaridad" id="escolaridad" list="escolaridad1" placeholder="ESCOLARIDAD" class="input48"/>
+          <datalist id="escolaridad1">
             <option value="SECUNDARIA">
             <option value="BACHILLER">
             <option value="LICENCIATURA">
             <option value="ESPECIALIZACIÓN">
             <option value="MAESTRÍA">      
-        </datalist>
+          </datalist>
 
     
-        <input name="idiomas" id="idiomas" type="text" placeholder="IDIOMAS"class="input48"/>
+          <input name="idiomas" id="idiomas" type="text" placeholder="IDIOMAS"class="input48"/>
     
-        <input name="habilidades" id="habilidades" type="text" placeholder="HABILIDADES" class="input100"/>
+          <input name="habilidades" id="habilidades" type="text" placeholder="HABILIDADES" class="input100"/>
     
-        <input name="experiencia" id="experiencia" type="text" placeholder="EXPERIENCIA" class="input100"/>
+          <input name="experiencia" id="experiencia" type="text" placeholder="EXPERIENCIA" class="input100"/>
    
-        <input name="comentarios" id="comentarios" type="text" placeholder="COMENTARIOS" class="input100"/>
+          <input name="comentarios" id="comentarios" type="text" placeholder="COMENTARIOS" class="input100"/>
 
-    <!--<input type="submit" value="ENVIAR" class="btnEnviar"/>-->
-    <button id="boton1" onclick="miFuncion()">ENVIAR</button>
-    <input name="posiciones" id="posiciones" type="number" placeholder="POSICIONES"/>
-    <input type="reset" value="BORRAR" class="btnEnviar"/>
+<!--<input type="submit" value="ENVIAR" class="btnEnviar"/>-->
+        <button id="boton1" onclick="miFuncion()">ENVIAR</button>
+        <input name="posiciones" id="posiciones" type="number" placeholder="POSICIONES"/>
+        <input type="reset" value="BORRAR" class="btnEnviar"/>
 
 </div>
 </div>
@@ -84,33 +82,44 @@
   <H3 class="formDatos">DATOS GENERALES</H3>
 <div class="contenedorInputs">
           <p name="nombre2" id="nombre2" class="input100"> NOMBRE </p>
-          <p id="nombre2"></p>
+          <p id="nombre2" class="input100"></p>
 <br>
-            <P name="edad1" id="edad1" class="input100">EDAD</p> 
+          <P name="edad1" id="edad1" class="input100">EDAD</p> 
+          <p id="edad2" class="input100"></p>
+<br>
           <p name="nacimiento1" id="nacimiento1" class="input100">LUGAR DE NACIMIENTO</p>
-
+          <p id="nacimiento2" class="input100"></p>
+<br>
       <p name="puesto1" id="puesto1" class="input100">PUESTO SOLICITADO</p>
-
-
-        <p name="sueldo1" id="sueldo1" class="input100">SUELDO</p>
-      
- 
+      <p id="puesto2" class="input100"></p>
+<br>
+     <p name="sueldo1" id="sueldo1" class="input100">SUELDO</p>
+     <p id="sueldo2" class="input100"></p>
+<br>
       <p name="direccion1" id="direccion1" class="input100">DIRECCION</p>
-   
+      <p id="direccion2" class="input100"></p>
+<br>
       <p name="email1" id="email1"class="input100">E MAIL</p>
-   
-          <p name="celular1" id="celular1" class="input100">CELULAR</p>
-   
-      <p name="escolaridad1" id="escolaridad1" class="input100">ESCOLARIDAD</p>
-
-  
+      <p id="email2" class="input100"></p>
+<br>
+      <p name="celular1" id="celular1" class="input100">CELULAR</p>
+      <p id="celular2" class="input100"></p>
+<br>
+      <p name="escolaridadb" id="escolaridadb" class="input100">ESCOLARIDAD</p>
+      <p id="escolaridad2" class="input100"></p>
+<br>
       <p name="idiomas1" id="idiomas1" class="input100">IDIOMAS</p>
-  
+      <p id="idiomas2" class="input100"></p>
+<br>
       <p name="habilidades1" id="habilidades1" class="input100">HABILIDADES</p>
-  
+      <p id="habilidades2" class="input100"></p>
+<br>
       <P name="experiencia1" id="experiencia1" class="input100">EXPERIENCIA</p>
- 
+        <p id="experiencia2" class="input100"></p>
+ <br>
       <p name="comentarios1" id="comentarios1" class="input100">COMENTARIOS</p>
+      <p id="comentarios2" class="input100"></p>
+<br>
     </div>
     </main>
     <script type="module" src="index.js"></script>
