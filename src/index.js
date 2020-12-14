@@ -1,23 +1,24 @@
 import cipher from './cipher.js';
 
-//function getData()
-//let texto = document.getElementById("nombre").value;
-//let recorrido = document.getElementById("posiciones").value;
-
+// Test case
 console.log(cipher.encode("ALICIA FLORES", 11));
 
-let num=document.getElementById("posiciones").value;
-let texto=document.getElementById("nombre").value;
-let textoCifrado=cipher.encode(texto, num);
 
 
-let botonCifrar=document.getElementById("boton1")
-botonCifrar.addEventListener("click", miFuncion)
+document.getElementById("boton1").addEventListener("click", function() {
+    const num = document.getElementById("posiciones").value;
+    const texto = document.getElementById("nombre").value;
 
-console.log("ALICIA FLORES", 10)
-function miFuncion() {
- document.getElementById("nombre2").innerHTML=textoCifrado
-}
+    
+    document.getElementById("nombre2").innerHTML = cipher.encode(texto, num);
+});
+
+
+//if (texto.length < 1) {
+    //alert('Por favor escriba un nombre');
+    //return false;
+//}
+
 
 //import decipher from './cipher.js';
 
