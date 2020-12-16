@@ -19,6 +19,20 @@ h1 {
     background: #e6df9a;
     border-radius: 6px;
 }
+.formularioDescifrar{
+    width: 95%;
+    max-width: 500px;
+    margin:auto;
+    background: #e6df9a;
+    border-radius: 6px;
+}
+.formularioDescifrar2{
+    width: 95%;
+    max-width: 500px;
+    margin:auto;
+    background: #e6df9a;
+    border-radius: 6px;
+}
 
 .formDatos{
     background: #d1af24;
